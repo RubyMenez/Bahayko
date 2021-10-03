@@ -7,7 +7,7 @@ body {
 .header {
     background-color: #f1f1f1;
     padding: 20px;
-    background-image: url("./../Img/Header1.png");
+    background-image: url("Header1.png");
     background-size:cover;
    background-repeat: no-repeat;
    background-position-y:bottom;
