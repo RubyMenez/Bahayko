@@ -2,15 +2,21 @@
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-        <link rel="stylesheet" href="weblayout.css">
+        <link rel="stylesheet" href="layout.css">
 
     </head>
     <body>
         <div class="header">
-            <h1>Bah<span class="material-icons-outlined">
+            
+            <h1>
+                Bah<span class="material-icons-outlined">
                 other_houses
-                </span>y Ko</h1>
-            <p>For your next home</p>
+                </span>y Ko
+                <span class="head material-icons">
+                    person
+                </span>               
+            </h1>         
+            <p>For your next home</p>  
           </div>
           
           <!-- <div class="topnav">
@@ -19,15 +25,67 @@
             <a href="#">Link</a>
           </div> -->
           
-          <div class="row">
-            <div class="column">
-              <h2>Column</h2>
-              <i class="material-icons">bungalow</i>
-<i class="material-icons-outlined">bungalow</i>
-<i class="material-icons-two-tone">bungalow</i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+     
+            <div class="content">
+                <div class="search">
+                  <p>Start looking for affordable place to live here in the south. Search from different locaiton and wide range of properties that suits your budget.</p>
+                    <select class="searchbar">                      
+                      <option value="none">Location</option>
+                      <optgroup label="Cavite">
+                        <option value="Bacoor"> Bacoor</option>
+                        <option value="Imus"> Imus</option>
+                        <option value="Dasmarinas"> Dasmarinas</option>
+                        <option value="Silang"> Silang</option>
+                      </optgroup>
+                      <optgroup label="Laguna">
+                        <option value="Binan"> Binan</option>
+                        <option value="Calamba"> Calamba</option>
+                        <option value="San_Pedro"> San Pedro</option>
+                        <option value="Sta_Rosa"> Sta Rosa</option>
+                      </optgroup>
+                    </select>
+                    <select class="searchbar">                      
+                      <option value="none">Property Type</option>                     
+                      <option value="Cono"> Condominium </option>
+                      <option value="Town"> Town House</option>
+                      <option value="Detached"> Single Detached</option>
+                      <option value="Villa"> Villa </option>                     
+                    </select>
+                    <select class="searchbar">                      
+                      <option value="none"># of Bedroom</option>                     
+                      <option value="Bacoor"> Studio </option>
+                      <option value="Imus"> 1 </option>
+                      <option value="Dasmarinas"> 2 </option>
+                      <option value="Silang"> 3 </option>  
+                      <option value="Silang"> 4 </option>  
+                      <option value="Silang"> 5 </option>                     
+                    </select>
+                    <select class="searchbar">                      
+                      <option value="none">Min Lease Price</option>                     
+                      <option value="Bacoor"> Below Php 2,500.00 </option>
+                      <option value="Imus"> Php 2,500.00 </option>
+                      <option value="Dasmarinas"> Php 5,000.00 </option>
+                      <option value="Silang"> Php 10,000.00 </option>  
+                      <option value="Silang"> Php 15,000.00 </option>  
+                      <option value="Silang"> Php 20,000.00 </option>                     
+                    </select>
+                    <select class="searchbar">                      
+                      <option value="none">Max Lease Price</option>                     
+                      <option value="Bacoor"> Php 5,000.00 </option>
+                      <option value="Imus"> Php 7,500.00 </option>
+                      <option value="Dasmarinas"> Php 10,000.00 </option>
+                      <option value="Silang"> Php 15,000.00 </option>  
+                      <option value="Silang"> Php 20,000.00 </option>  
+                      <option value="Silang"> Php 30,000.00 </option>                  
+                    </select>
+                </div>
             </div>
-          </div>
-          
+            
+         
+        
+          <div class="footer">
+            <p><strong>About</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit. Ac tortor vitae purus faucibus. Diam in arcu cursus euismod quis viverra.</p>
+        </div>
     </body>
 </html>
